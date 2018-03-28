@@ -10,7 +10,7 @@ html, body {
     background-size: cover;
     -o-background-size: cover;
     background-position: center;
-    background-image: url("../images/banner.jpg");
+    background-image: url("../images/tree.jpg");
     background-attachment: fixed;
 }
 
@@ -23,7 +23,7 @@ html, body {
 #banner-fg {
     height: 100%;
     text-align: center;
-    background-color: rgba(26, 79, 134, 0.61)
+    background-color: rgba(26, 100, 134, 0.5);
 }
 
 .banner-text {
