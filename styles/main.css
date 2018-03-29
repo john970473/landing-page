@@ -96,14 +96,53 @@ section h2 {
 }
 
 footer {
-    margin-top: 4rem;
-    background-color: #f7f7f7;
-    padding: 4rem;
+    background-color: rgba(128, 128, 128, 0.2);
+    padding: 0.5rem;
     color: gray;
 }
 
-p.feacontent {
-  text-align: left;
+div.feedbackdiv {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  padding: 8rem 0;
+}
+
+span.logo {
+  color: green;
+  font-weight: 700;
+}
+
+h2.paraheader {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 900;
+}
+
+@media (max-width: 40rem) {
+  h2.paraheader {
+    font-size: 3rem;
+  }
+}
+
+span.featag {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+@media (max-width: 40rem) {
+  span.featag {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 60rem) {
+  span.featag {
+    font-size: 2.5rem;
+  }
 }
 
 div.featuring {
