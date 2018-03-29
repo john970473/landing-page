@@ -149,13 +149,59 @@ div.featuring {
 
 }
 
-
-.fa-facebook {
-  padding: 1rem;
-  font-size: 1.5rem;
-  width: 3rem;
-  text-align: center;
-  border-radius: 50%;
-  background: #3B5998;
-  color: white;
+.sm-text{
+  margin-top: -1rem;
 }
+
+@font-face {
+    font-family: 'si';
+    src: url('images/socicon.eot');
+    src: url('images/socicon.eot?#iefix') format('embedded-opentype'),
+         url('images/socicon.woff') format('woff'),
+         url('images/socicon.ttf') format('truetype'),
+         url('images/socicon.svg#icomoonregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family:si;
+        src: url(images/socicon.svg) format(svg);
+    }
+}
+
+.icon {
+    margin: 1rem;
+    clear: both;
+}
+
+/* . li a {
+    font-family:si!important;
+    font-style:normal;
+    font-weight:400;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    box-sizing:border-box;
+    overflow:hidden;
+    text-decoration:none;
+    text-align:center;
+    display:block;
+    position: relative;
+    z-index: 1;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 33px;
+    -webkit-border-radius: 19px;
+    -moz-border-radius: 19px;
+    border-radius: 19px;
+    margin-right: 16px;
+    color: #ffffff;
+    background-color: none;
+} */
