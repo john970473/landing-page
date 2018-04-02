@@ -4,7 +4,7 @@ html, body {
 }
 
 #banner {
-    height: 60rem;
+    height: 40rem;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
